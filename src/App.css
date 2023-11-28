@@ -1,31 +1,106 @@
-.App {
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/workspaces/codespaces-react/public/candycanes.png);
+  background-size: 1000px; /* Adjust the size of the candy cane pattern */
+  background-repeat: repeat;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  border-radius: 10px;
+  overflow: hidden; /* Hide the overflow from rounded corners */
 }
 
-.heart {
-  color: #ff0000;
+
+.chat-history {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
 }
 
-.small {
-  font-size: 0.75rem;
+.user-message {
+  background-color: #dff3c6;
+  padding: 8px;
+  margin: 20px 0;
+  border-radius: 8px;
+  align-self: flex-end;
+}
+
+.chatbot-message {
+  background-color: #06af3e;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 8px;
+  align-self: flex-start;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+input {
+  flex-grow: 1;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Add this to your existing styles */
+select {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+/* Add this to your existing styles */
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ccc; /* Add a border at the top of the input container */
+}
+
+/* Modify this to style the input box and button */
+input {
+  flex-grow: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 12px; /* Add more padding to the button */
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+/* Add a hover effect to the button */
+button:hover {
+  background-color: #45a049;
 }
