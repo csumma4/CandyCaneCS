@@ -1,70 +1,53 @@
-# GitHub Codespaces ♥️ React
+# My Chatbot App
 
-Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
+Welcome to my chatbot application! This simple chatbot allows users to interact in multiple languages. Here's some information about the languages supported and how the language option affects the chatbot's responses.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+## Supported Languages
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+The chatbot currently supports the following languages:
 
-This project was bootstrapped for you with [Vite](https://vitejs.dev/).
+1. English
+2. Spanish
+3. Arabic
+4. Hebrew
+5. German
+6. Korean
+7. Bengali
+8. Vietnamese
+9. Mandarin Chinese
+10. Telugu
+11. Portuguese
+12. Japanese
+13. Chinese
+14. Turkish
+15. Dutch
+16. Tamil
+17. Marathi
+18. Russian
+19. Italian
+20. Hindi
+21. Indonesian
+22. Urdu
+23. Malay
+24. Amharic
 
-## Available Scripts
+## Language Option
 
-In the project directory, you can run:
+Users can select their preferred language using the language dropdown menu. The selected language affects how the chatbot interprets and responds to user input. The chatbot is trained to understand and generate responses in the specified language.
 
-### `npm start`
+### Example
 
-We've already run this for you in the `Codespaces: server` terminal window below. If you need to stop the server for any reason you can just run `npm start` again to bring it back online.
+If a user selects "Spanish" as the language option, the chatbot will process and respond to messages in Spanish. Similarly, selecting "Hindi" will result in responses in Hindi.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000/](http://localhost:3000/) in the built-in Simple Browser (`Cmd/Ctrl + Shift + P > Simple Browser: Show`) to view your running application.
+## Running the Application
 
-The page will reload automatically when you make changes.\
-You may also see any lint errors in the console.
+To run the chatbot application locally, follow these steps:
 
-### `npm test`
+1. Clone the repository: `git clone https://github.com/csumma4/ChristinaSummaCC.git'
+2. Navigate to the project directory: `cd your-chatbot-app`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Open your web browser and go to `` to interact with the chatbot.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Vite documentation](https://vitejs.dev/guide/).
-
-To learn Vitest, a Vite-native testing framework, go to [Vitest documentation](https://vitest.dev/guide/)
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://sambitsahoo.com/blog/vite-code-splitting-that-works.html](https://sambitsahoo.com/blog/vite-code-splitting-that-works.html)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer](https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf](https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf)
-
-### Advanced Configuration
-
-This section has moved here: [https://vitejs.dev/guide/build.html#advanced-base-options](https://vitejs.dev/guide/build.html#advanced-base-options)
-
-### Deployment
-
-This section has moved here: [https://vitejs.dev/guide/build.html](https://vitejs.dev/guide/build.html)
-
-### Troubleshooting
-
-This section has moved here: [https://vitejs.dev/guide/troubleshooting.html](https://vitejs.dev/guide/troubleshooting.html)
+Feel free to ask questions or provide feedback. Enjoy chatting in multiple languages!
