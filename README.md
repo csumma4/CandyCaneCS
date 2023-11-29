@@ -43,7 +43,7 @@ If a user selects "Spanish" as the language option, the chatbot will process and
 
 To run the chatbot application locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/csumma4/ChristinaSummaCC.git'
+1. Clone the repository: `git clone https://github.com/csumma4/CandyCaneCS.git'
 2. Navigate to the project directory: `cd your-chatbot-app`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
