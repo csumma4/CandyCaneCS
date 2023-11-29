@@ -1,6 +1,5 @@
-// src/App.js
-import React, { useState, useEffect } from 'react';
 import './App.css';
+import React, { useState, useEffect } from 'react';
 
 function App() {
   const [userInput, setUserInput] = useState('');
